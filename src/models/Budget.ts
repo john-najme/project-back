@@ -1,5 +1,5 @@
 import {Table, Column, DataType, Model} from 'sequelize-typescript';
-import * as trace_events from "node:trace_events";
+
 
 @Table({ //decoradores --
     tableName: 'budgets',
