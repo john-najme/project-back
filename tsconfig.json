@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, //atributo nos indica el nombre de los archivos seran consistentes
+    "strict": true, //validar la tipificaciones, para q sea estricto
+    "skipLibCheck": true, //validar librerias
+    "sourceMap": true,
+    "declaration": true,
+    "experimentalDecorators": true,//
+    "emitDecoratorMetadata": true //
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
